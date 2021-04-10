@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="10dp"
+    app:cardCornerRadius="12dp"
+    android:layout_marginRight="10dp">
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/camera"
+            android:id="@+id/productimage"/>
+        <LinearLayout
+            android:layout_marginStart="15dp"
+            android:id="@+id/gthieusp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/productimage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_toRightOf="@id/productimage"
+            android:layout_toStartOf="@id/imgaddtocard"
+            android:layout_marginLeft="15dp"
+            android:layout_toLeftOf="@id/imgaddtocard">
+            <TextView
+               android:textColor="#0C0C0C"
+                android:id="@+id/tvproductname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textSize="16sp"/>
+            <TextView
+                android:id="@+id/motaproduct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textColor="#552FC1"/>
+
+
+        </LinearLayout>
+    <ImageView
+        android:background="@drawable/sellproduct_6"
+        android:id="@+id/imgaddtocard"
+        android:padding="5dp"
+        android:layout_width="60dp"
+        android:layout_height="55dp"
+        android:src="@drawable/product"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+
+        />
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

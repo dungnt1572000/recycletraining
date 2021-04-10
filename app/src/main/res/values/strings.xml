@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">addproducttocart</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="ProductFragment">ProductFragment</string>
+    <string name="CardFragment">CardFragment</string>
+    <string name="noticeFragment">NoticeFragment</string>
+    <string name="product">Product</string>
+    <string name="card">Card</string>
+    <string name="notice">Notice</string>
+</resources>
